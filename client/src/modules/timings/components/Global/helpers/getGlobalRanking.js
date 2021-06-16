@@ -34,7 +34,6 @@ const getGlobalRanking = (timings, racesClassification) => {
       }, 0),
     };
   });
-  console.log("Global ranking", globalRanking);
   return globalRanking.sort((p1, p2) => p2.points - p1.points);
 };
 
